@@ -128,6 +128,9 @@ def _fig_to_b64(plot_fn, *args, **kwargs) -> str:
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5001))
+    try:
+        port = int(os.environ.get("PORT", 5001))
+    except (ValueError, TypeError):
+        port = 5001
     print(f"  Открой браузер: http://localhost:{port}")
     app.run(debug=False, host="0.0.0.0", port=port)
