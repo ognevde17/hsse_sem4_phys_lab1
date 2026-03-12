@@ -10,8 +10,11 @@
 малых плоских панелей с неизвестными зарядами $q_i$. Потенциал центра панели $i$ от всех остальных
 панелей (и от себя) равен заданному потенциалу проводника:
 
-$$\sum_{j} P_{ij} \, q_j = \varphi_i^{\text{цель}}, \qquad
-P_{ij} = \begin{cases}
+$$\sum_{j=1}^{N} P_{ij} \, q_j = \varphi_i^{\text{цель}}$$
+
+где коэффициенты $P_{ij}$ определяются как:
+
+$$P_{ij} = \begin{cases}
 \dfrac{1}{4\pi\varepsilon_0 |\mathbf{r}_i - \mathbf{r}_j|}, & i \ne j, \\
 \dfrac{2}{4\pi\varepsilon_0}\sqrt{\dfrac{\pi}{A_i}}, & i = j
 \end{cases}$$
