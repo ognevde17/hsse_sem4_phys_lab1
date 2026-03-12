@@ -13,7 +13,7 @@ $$\varphi_i = \sum_{j=1}^{N} P_{ij}\, q_j$$
 Коэффициенты матрицы:
 
 $$P_{ij} = \begin{cases}
-\dfrac{1}{4\pi\varepsilon_0}\cdot\dfrac{1}{|\mathbf{r}_i - \mathbf{r}_j|}, & i \ne j,\\[8pt]
+\dfrac{1}{4\pi\varepsilon_0}\cdot\dfrac{1}{|\mathbf{r}_i - \mathbf{r}_j|}, & i \ne j,\\
 \dfrac{1}{4\pi\varepsilon_0}\cdot 2\sqrt{\dfrac{\pi}{A_i}}, & i = j.
 \end{cases}$$
 
